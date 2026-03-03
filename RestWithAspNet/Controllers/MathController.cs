@@ -7,13 +7,9 @@ namespace RestWithAspNet.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class MathController : ControllerBase
+    public class MathController(IMathService service) : ControllerBase
     {
-        private readonly IMathService _service;
-        public MathController(IMathService service) 
-        {
-            _service = service;
-        }
+        private readonly IMathService _service = service;
 
         [HttpGet("sum/{firstNumber}/{secondNumber}")]
         public ActionResult<decimal> GetSum(string firstNumber, string secondNumber) 
@@ -48,7 +44,7 @@ namespace RestWithAspNet.Controllers
         }
 
         [HttpGet("multi/{firstNumber}/{secondNumber}")]
-        public ActionResult<decimal> GetMultiply(string firstNumber, string secondNumber)
+        public ActionResult<decimal> GetMultiplication(string firstNumber, string secondNumber)
         {
             try
             {

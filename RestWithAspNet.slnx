@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="RestWithAspNet.Test/RestWithAspNet.xUnit.csproj" Id="1f7f57bd-d3a3-4aae-868d-ff127b5ea52b" />
   <Project Path="RestWithAspNet/RestWithAspNet.csproj" />
 </Solution>
