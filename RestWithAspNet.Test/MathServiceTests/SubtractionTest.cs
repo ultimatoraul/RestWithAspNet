@@ -1,4 +1,4 @@
-using RestWithAspNet.Services;
+using RestWithAspNet.Domain.Services;
 
 namespace RestWithAspNet.xUnit.MathServiceTests
 {

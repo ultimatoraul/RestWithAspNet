@@ -1,4 +1,4 @@
-﻿namespace RestWithAspNet.Models
+﻿namespace RestWithAspNet.Domain.Models
 {
     public class Pessoa(string nome, DateTime dataNascimento)
     {

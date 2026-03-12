@@ -1,6 +1,6 @@
-﻿using RestWithAspNet.Interfaces;
+﻿using RestWithAspNet.Domain.Interfaces;
 
-namespace RestWithAspNet.Services
+namespace RestWithAspNet.Domain.Services
 {
     public class MathService : IMathService
     {

@@ -1,6 +1,6 @@
-﻿using RestWithAspNet.Interfaces;
+﻿using RestWithAspNet.Domain.Interfaces;
 
-namespace RestWithAspNet.Models
+namespace RestWithAspNet.Domain.Models
 {
     public class SuperHeroi(string nome, DateTime dataNascimento, int nivelKriptonita) : Pessoa(nome, dataNascimento), ISuperHeroi 
     {

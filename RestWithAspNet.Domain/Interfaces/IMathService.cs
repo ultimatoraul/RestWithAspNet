@@ -1,4 +1,4 @@
-﻿namespace RestWithAspNet.Interfaces
+﻿namespace RestWithAspNet.Domain.Interfaces
 {
     public interface IMathService
     {

@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using RestWithAspNet.Models;
+using RestWithAspNet.Domain.Models;
 
 namespace RestWithAspNet.Controllers
 {

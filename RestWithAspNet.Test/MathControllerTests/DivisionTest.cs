@@ -1,6 +1,6 @@
 ﻿using Moq;
 using RestWithAspNet.Controllers;
-using RestWithAspNet.Interfaces;
+using RestWithAspNet.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace RestWithAspNet.xUnit.MathControllerTests

@@ -1,5 +1,5 @@
 ﻿using Moq;
-using RestWithAspNet.Interfaces;
+using RestWithAspNet.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using RestWithAspNet.Controllers;
 

@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RestWithAspNet.Interfaces;
+using RestWithAspNet.Domain.Interfaces;
 using RestWithAspNet.Utils;
 using RestWithAspNet.Validations;
 
